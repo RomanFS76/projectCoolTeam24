@@ -1,0 +1,100 @@
+.our-courses {
+  display: flex;
+  width: 1240px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin: auto;
+}
+
+.our-courses-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.our-courses-h2 {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px; /* 112.5% */
+  letter-spacing: -1.92px;
+}
+.our-courses-h2-span {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: -1.92px;
+}
+.our-courses-h4 {
+  width: 565px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+}
+.our-courses-list {
+  display: flex;
+  width: 1240px;
+  height: 452px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 50px;
+}
+.our-courses-item {
+  width: 400px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
+.our-courses-content {
+  width: 336px;
+  padding: 32px;
+}
+.our-courses-item-top {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 290px;
+}
+.our-courses-number-card {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+  padding-bottom: 32px;
+}
+.our-courses-name {
+  width: 265px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 114.286% */
+  padding-bottom: 200px;
+}
+.our-courses-description {
+  width: 336px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+}
