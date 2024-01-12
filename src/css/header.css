@@ -1,1 +1,39 @@
+/* Header*/
 
+.header-container {
+  background: #121212;
+  max-width: 375px;
+}
+.menu-frame {
+  width: 335px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #121212;
+  margin: 20px auto;
+}
+.navigation {
+}
+.logo {
+}
+.menu-icon {
+}
+.burger-menu {
+}
+.menu-list {
+}
+.menu-item {
+}
+.current {
+}
+.menu-button {
+}
+
+/*Mobile menu*/
+.mobile-menu {
+}
+.close-button {
+}
+.menu-photo {
+}

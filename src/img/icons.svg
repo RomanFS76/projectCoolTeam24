@@ -33,7 +33,7 @@
         <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 24.468h35.329"></path>
         <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M19.602 14.771h24.398"></path>
     </symbol>
-        <symbol id="icon-tab-desc-logo" viewBox="0 0 233 32">
+    <symbol id="icon-tab-desc-logo" viewBox="0 0 233 32">
         <path fill="#fff" style="fill: var(--color1, #fff)" d="M19.471 17.348h-13.192v12.649h-6.28v-29.997h21.368v5.24h-15.089v6.822h13.192v5.286z"></path>
         <path fill="#fff" style="fill: var(--color1, #fff)" d="M32.201 25.66c3.569 0 5.376-2.259 5.376-6.776s-1.807-6.731-5.376-6.731c-3.569 0-5.376 2.214-5.376 6.731s1.807 6.776 5.376 6.776zM32.201 30.584c-7.183 0-11.43-4.789-11.43-11.701 0-7.048 4.382-11.701 11.43-11.701 6.957 0 11.294 4.608 11.294 11.701 0 7.048-4.382 11.701-11.294 11.701z"></path>
         <path fill="#fff" style="fill: var(--color1, #fff)" d="M59.716 21.956h5.918c-0.632 5.15-4.834 8.629-10.21 8.629-6.054 0-10.21-4.021-10.21-11.972s4.156-11.43 10.391-11.43c5.783 0 9.713 3.298 10.074 8.538h-5.918c-0.316-2.304-1.988-3.659-4.201-3.659-2.485 0-4.518 1.581-4.518 6.415s2.033 7.183 4.337 7.183c2.304 0 4.111-1.31 4.337-3.704z"></path>
