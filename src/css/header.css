@@ -35,6 +35,10 @@
   margin-right: 14px;
   margin-left: auto;
 }
+.icon-camera {
+  position: center;
+}
+
 .menu-icon:hover .icon-camera,
 .menu-icon:focus .icon-camera {
   fill: rgba(190, 166, 158, 1);
