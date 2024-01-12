@@ -39,8 +39,7 @@
 .menu-icon:focus .icon-camera {
   fill: rgba(190, 166, 158, 1);
 }
-.burger-menu {
-}
+
 .sign-up,
 .menu-list {
   display: none;
@@ -103,6 +102,8 @@
   }
   .menu-frame {
     width: 822px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .sign-up {
     width: 238px;
@@ -114,9 +115,7 @@
   }
   .menu-item {
     color: #fff;
-
     font-size: 14px;
-
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
