@@ -3,37 +3,82 @@
 .header-container {
   background: #121212;
   max-width: 375px;
+  margin: 0 auto;
 }
 .menu-frame {
-  width: 335px;
+  max-width: 335px;
   height: 50px;
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #121212;
-  margin: 20px auto;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+ {
 }
 .navigation {
 }
 .logo {
 }
+.log-svg {
+  fill: #fff;
+}
 .menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  background-color: #1d1d1d;
+  border-radius: 50%;
+  margin-right: 14px;
+  margin-left: auto;
+}
+.icon-camera {
 }
 .burger-menu {
 }
-.menu-list {
+.menu-nav {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-nav {
+    display: flex;
+  }
 }
 .menu-item {
 }
 .current {
 }
 .menu-button {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+   {
+  }
 }
 
 /*Mobile menu*/
 .mobile-menu {
+  width: 218px;
+  height: 100%;
+  flex-shrink: 0;
+  background: #bea69e;
 }
 .close-button {
+  fill: rgba(18, 18, 18, 1);
+  background-color: transparent;
 }
 .menu-photo {
 }
