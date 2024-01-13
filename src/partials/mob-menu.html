@@ -1,28 +1,40 @@
 <!--Mobile Menu-->
-<div class="mobile-menu">
-  <button type="button" class="close-button">
-    <svg class="close-btn-menu" width="32px" height="32px">
-      <use href="../img/icons.svg#icon-mob-menu-close"></use>
-    </svg>
-  </button>
+<div class="backdrop">
+  <div class="mobile-menu">
+    <button type="button" class="close-button">
+      <svg class="close-btn-menu" width="32px" height="32px">
+        <use href="../public/favicon.svg#icon-mob-menu-close"></use>
+      </svg>
+    </button>
 
-  <ul class="menu-nav-mobile">
-    <li>
-      <a class="menu-item-mobile current" href="./index.html">About us</a>
-    </li>
-    <li><a class="menu-item-mobile" href="">Our courses</a></li>
-    <li><a class="menu-item-mobile" href="">Our mentors</a></li>
-    <li><a class="menu-item-mobile" href="">Reviews</a></li>
-    <li><a class="menu-item-mobile" href="">contacts</a></li>
-  </ul>
-  <div class="menu-photo">
-    <img
-      srcset="
-        ../img/hero-mob-menu/mob.jpg    1x,
-        ../img/hero-mob-menu/mob@2x.png 2x
-      "
-      src="../img/hero-mob-menu/mob.jpg"
-      alt="camera"
-    />
+    <ul class="menu-nav-mobile">
+      <li>
+        <a class="menu-item-mobile current" href="#about-us">About us</a>
+      </li>
+      <li><a class="menu-item-mobile" href="#our-courses">Our courses</a></li>
+      <li><a class="menu-item-mobile" href="#our-mentors">Our mentors</a></li>
+      <li><a class="menu-item-mobile" href="#reviews">Reviews</a></li>
+      <li><a class="menu-item-mobile" href="#contacts">contacts</a></li>
+    </ul>
+    <div class="menu-photo-mob">
+      <img
+        srcset="
+          ../img/hero-mob-menu/mob@2x.jpg 2x,
+          ../img/hero-mob-menu/mob.jpg    1x
+        "
+        src="../img/hero-mob-menu/mob.jpg"
+        alt="camera"
+      />
+    </div>
+    <div class="menu-photo-tablet">
+      <img
+        srcset="
+          ../img/hero-mob-menu/tab@2x.jpg 2x,
+          ../img/hero-mob-menu/tab.jpg    1x
+        "
+        src="../img/hero-mob-menu/tab.jpg"
+        alt="camera"
+      />
+    </div>
   </div>
 </div>
