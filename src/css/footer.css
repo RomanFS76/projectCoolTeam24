@@ -26,21 +26,21 @@
   line-height: 1.28;
   text-transform: uppercase;
 }
-.phone {
-}
+
 .address {
   font-style: normal;
 }
 .footer-middle {
   display: flex;
-  justify-content: space-between;
+
   gap: 40px;
   margin-bottom: 76px;
 }
-.footer-socials {
-}
 
 .menu-list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .socials-item {
@@ -59,9 +59,6 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
 }
 
 .form-footer {
