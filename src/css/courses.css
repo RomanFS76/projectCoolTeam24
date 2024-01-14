@@ -51,6 +51,12 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .our-courses-top {
+    max-width: 1240px;
+  }
+}
+
 .our-courses-h2 {
   color: #fff;
   font-family: DM Sans;
@@ -201,26 +207,6 @@
 @media only screen and (min-width: 1440px) {
   .our-courses-item-top {
     gap: 286px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .our-courses-top {
-    display: flex;
-    gap: 58px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .our-courses-top {
-    display: flex;
-    gap: 410px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .our-courses-top {
-    max-width: 1240px;
   }
 }
 
