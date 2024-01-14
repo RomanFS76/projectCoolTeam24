@@ -29,8 +29,8 @@
 
 @media screen and (min-width: 768px) {
   .signup-container {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     justify-content: flex-start;
 
     padding-top: 75px;
@@ -40,8 +40,8 @@
 
 @media screen and (min-width: 1280px) {
   .signup-container {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     gap: 60px;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -74,7 +74,7 @@
 
 @media screen and (min-width: 1280px) {
   .signup-form {
-    width: 480px;
+    /* width: 480px; */
     height: 578px;
   }
 }
@@ -222,7 +222,7 @@
 
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
-  font-weight: 400;
+  /* font-weight: 400; */
 
   user-select: none;
 }
