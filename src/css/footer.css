@@ -9,7 +9,6 @@
 
 /*Footer Top*/
 .footer-top {
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 .logo-footer {
@@ -72,10 +71,12 @@
 .form-footer {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 40px;
 }
 .form-footer-input {
   height: 60px;
+  width: 267px;
   flex-shrink: 0;
   border-radius: 12px;
   background: #fff;
@@ -105,6 +106,7 @@
   line-height: 2.4;
   border: none;
 }
+
 /*Footer Bottom*/
 .footer-bottom {
   display: flex;
