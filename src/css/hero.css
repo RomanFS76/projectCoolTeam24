@@ -15,8 +15,19 @@
   /* Tablet */
   .hero-container {
     padding: 64px 155px 640px 32px;
+    background-image: url(../img/hero/tab.png);
   }
 }
+@media screen and (min-width: 1280px) {
+  /* Desktop */
+  .hero-container {
+    padding: 80px 50px 50px 50px;
+    background-image: url(../img/hero/desc.png);
+
+    background-position: bottom right;
+  }
+}
+
 /* Mobile */
 .hero-title,
 .hero-accent {
@@ -24,8 +35,7 @@
   font-size: 40px;
   line-height: 1.1;
   letter-spacing: -0.04em;
-
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
@@ -34,11 +44,16 @@
     font-weight: 500;
     font-size: 60px;
     line-height: 1.07;
-
-    margin-bottom: 20px;
   }
 }
-
+@media screen and (min-width: 1280px) {
+  /* Desktop */
+  .hero-title,
+  .hero-accent {
+    font-size: 64px;
+    line-height: 1.06;
+  }
+}
 /* Mobile */
 .hero-title {
   color: #fff;
@@ -48,12 +63,10 @@
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
+  /* Desktop */
   .hero-title {
     width: 500px;
   }
-}
-@media screen and (min-width: 1280px) {
-  /* Desktop */
 }
 
 .hero-accent {
@@ -70,14 +83,22 @@
   letter-spacing: -0.02em;
   text-align: left;
   width: 295px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
+  /* Desktop */
   .hero-info {
     width: 418px;
-    padding-bottom: 40px;
   }
 }
+@media screen and (min-width: 1280px) {
+  /* Desktop */
+  .hero-info {
+    margin-bottom: 136px;
+  }
+}
+
 .hero-wrapper {
   display: flex;
   flex-direction: row;
@@ -94,6 +115,12 @@
     align-items: flex-start;
     padding-left: 16px;
     margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  /* Desktop */
+  .hero-wrapper {
+    margin-bottom: 0;
   }
 }
 /* Hero students start */
