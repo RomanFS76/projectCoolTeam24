@@ -223,6 +223,8 @@
   .our-courses-top {
     display: flex;
     gap: 410px;
+  }
+}      
 @media only screen and (min-width: 1440px) {
   .our-courses-item-top {
     gap: 286px;
