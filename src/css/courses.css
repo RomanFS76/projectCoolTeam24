@@ -250,6 +250,8 @@
   .our-courses-top {
     display: flex;
     gap: 410px;
+  }
+}
 @media only screen and (max-width: 320px) {
   .our-courses-item-top {
     max-width: 100%;
