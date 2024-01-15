@@ -1,0 +1,61 @@
+.advertisement-marquee {
+  overflow: hidden;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.143; /* 114.286% */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #bea69e;
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement-marquee {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement-marquee {
+    font-size: 59px;
+    line-height: 1.085; /* 108.475% */
+  }
+}
+
+.advertisement-marquee span {
+  color: #fff;
+}
+
+.advertisement-marquee-inner {
+  display: flex;
+}
+
+.advertisement-marquee-line {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 20px 10px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement-marquee-line {
+    padding: 24px 12px;
+  }
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
