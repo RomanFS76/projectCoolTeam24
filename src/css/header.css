@@ -4,6 +4,7 @@
     url(../img/footer-cell/mob_cell@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 20px;
 }
 
 .menu-wrapper {
