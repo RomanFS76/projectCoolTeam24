@@ -51,3 +51,7 @@ body {
     padding: 75px 0;
   }
 }
+
+.hide {
+  display: none;
+}
