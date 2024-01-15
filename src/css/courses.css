@@ -8,6 +8,8 @@
   max-width: 1240px;
   margin: auto;
   flex-direction: column;
+  /* padding-top: 75px;
+  padding-bottom: 75px; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -162,7 +164,6 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
-  margin: 0 auto;
 }
 
 @media only screen and (min-width: 1280px) {
