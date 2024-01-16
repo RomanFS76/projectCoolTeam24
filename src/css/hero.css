@@ -3,7 +3,7 @@
   background-color: #1d1d1d;
   border-radius: 30px;
 
-  max-width: 335px;
+  max-width: 295px;
   margin: auto;
   padding-bottom: 0;
 }
@@ -212,6 +212,7 @@
   font-size: 14px;
   padding-right: 20px;
   color: #d9d9d9;
+  cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
@@ -256,6 +257,16 @@
     height: 50px;
   }
 }
+.hero-students-link:hover,
+.hero-students-link:focus {
+  color: #121212;
+  background-color: #bea69e;
+}
+
+.hero-reviews-link:hover,
+.hero-reviews-link:focus {
+  background-color: #fff;
+}
 .hero-reviews-icon {
   width: 20px;
   height: 20px;
@@ -285,7 +296,7 @@
   font-weight: 500;
   line-height: 1.12;
   letter-spacing: -0.04em;
-
+  width: 60px;
   padding-bottom: 50px;
 }
 /* Hero Reviews end */
