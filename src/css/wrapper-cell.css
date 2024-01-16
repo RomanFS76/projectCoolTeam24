@@ -9,7 +9,7 @@
   }
 
   @media screen and (min-width: 1280px) {
-    .signup-container {
+    .wrapper-cell {
        padding-bottom: 75px;
     }
   }
