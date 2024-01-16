@@ -213,6 +213,7 @@
   height: 288px;
 
   border-radius: 1000px;
+
   background: #bea69e;
 
   margin-top: 252px;
@@ -220,11 +221,16 @@
   padding-top: 76px;
   padding-left: 19px;
   padding-right: 19px;
+  position: relative;
 }
 
-.test {
-  box-shadow: -35.56211853027344px 17.78105926513672px 25.439592361450195px 0px
-    #00000042;
+.shadow {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+  filter: drop-shadow(-35.562px 17.781px 25.44px rgba(0, 0, 0, 0.4));
 }
 
 .camera {
