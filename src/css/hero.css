@@ -1,44 +1,53 @@
 /* Mobile */
-.hero {
+.hero.section {
   background-color: #1d1d1d;
   border-radius: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
+
+  max-width: 335px;
+  margin: auto;
+  padding-bottom: 0;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
-  .hero {
-    margin-left: 32px;
-    margin-right: 32px;
+  .hero.section {
+    max-width: 704px;
+    padding-top: 64px;
   }
 }
 @media screen and (min-width: 1280px) {
   /* Desktop */
-  .hero {
-    margin-left: 100px;
-    margin-right: 100px;
+  .hero.section {
+    max-width: 1080px;
   }
 }
 
 /* Mobile */
-.hero-container {
+.hero-container-background {
+  display: flex;
+  flex-direction: column;
   background-image: url(../img/hero/mob.png);
   background-repeat: no-repeat;
   background-position: bottom center;
-  padding-bottom: 350px;
+  padding-bottom: 340px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
-  .hero-container {
+  .hero-container-background {
     background-image: url(../img/hero/tab.png);
-    padding-bottom: 640px;
+    padding-bottom: 474px;
   }
 }
 @media screen and (min-width: 1280px) {
   /* Desktop */
-  .hero-container {
+  .hero-container-background {
     background-image: url(../img/hero/desc.png);
-    background-position: bottom right 50px;
+    background-position: bottom right;
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  /* Desktop */
+  .hero > .container {
     padding: 0 50px;
   }
 }
@@ -47,6 +56,7 @@
 .hero-title,
 .hero-accent {
   font-size: 40px;
+  font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
 }
@@ -54,7 +64,6 @@
   /* Tablet */
   .hero-title,
   .hero-accent {
-    font-weight: 500;
     font-size: 60px;
     line-height: 1.07;
   }
@@ -70,24 +79,17 @@
 /* Mobile */
 .hero-title {
   color: currentColor;
-  width: 295px;
+  width: 100%;
 
-  padding-top: 40px;
   padding-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
   .hero-title {
-    padding-top: 64px;
     width: 500px;
   }
 }
-@media screen and (min-width: 1280px) {
-  /* Desktop */
-  .hero-title {
-    padding-top: 80px;
-  }
-}
+
 .hero-accent {
   color: #bea69e;
   font-style: italic;
