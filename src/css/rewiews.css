@@ -5,9 +5,9 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 50px;
 } 
-
-.reviews-name {
+.riviews-name {
     margin-bottom: 50px;
     color: #FFF;
     font-family: DM Sans;
@@ -16,12 +16,23 @@ ul {
     font-weight: 500;
     line-height: 32px; 
     letter-spacing: -1.12px;
-    
+}
+@media screen and (max-width: 376px) {
+  .riviews-name {
+    font-size: 28px;
+  }
 }
 .cards {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 
+}
+@media screen and (min-width: 1280px) {
+  .cards {
+    width: 1240px;
+    height: 196px;
+  }
 }
 .cards-box {
     width: 100%; 
@@ -33,27 +44,13 @@ ul {
     align-items: flex-start;
     gap: 4px;
     display: flex;
-    position: relative;
-    margin-right: 20px;
-    margin-top: 50px;
+    position: relative; 
 }
 @media screen and (max-width: 768px) {
     .two {
       display: none;
     } 
   }
-@media screen and (max-width: 1280px) {
-    .cards {
-        margin-left: 32px;
-        margin-right: 32px;
-    }
-}
-@media screen and (max-width: 376px) {
-    .cards {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
 .images {
     height: auto;
     border-radius: 100px;
@@ -64,26 +61,14 @@ ul {
     align-items: center;
     width: 100%;
 }
-
-.student-name {
+.text-bloc {
   color: #FFF;
   font-family: DM Sans;
-  font-size: 48px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 54px;
-  letter-spacing: -1.92px;
-}
-
-.text {
-    margin-top: 10px;
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
 }
 @media screen and (max-width: 376px) {
   .team {
@@ -99,11 +84,6 @@ ul {
 @media screen and (max-width: 376px) {
   .text {
     font-size: 14px;
-  }
-}
-@media screen and (min-width: 786px) {
-  .team {
-    flex-direction: row;
   }
 }
 .std-name {
@@ -143,9 +123,6 @@ ul {
   .stars {
    position: absolute; right: 20px; top: 20px;
   }
-}
-.text-bloc {
-    width: 100%;
 }
 .last-star {
     opacity: 0.2;
