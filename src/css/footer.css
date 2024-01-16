@@ -1,8 +1,8 @@
 .footer {
   padding-top: 40px;
   padding-bottom: 25px;
-  background-image: url(../img/footer-cell/mob_cell.png),
-    url(../img/footer-cell/mob_cell@2x.png);
+  background-image: url(../img/background-cell/mob_cell.png),
+    url(../img/background-cell/mob_cell@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -135,8 +135,8 @@
   .footer {
     padding-top: 50px;
 
-    background-image: url(../img/footer-cell/tablet-cell.png),
-      url(../img/footer-cell/tablet-cell@2x.png);
+    background-image: url(../img/background-cell/tablet-cell.png),
+      url(../img/background-cell/tablet-cell@2x.png);
   }
   .footer-wrapper {
     flex-direction: row;
@@ -171,8 +171,8 @@
 }
 @media only screen and (min-width: 1280px) {
   .footer {
-    background-image: url(../img/footer-cell/desc1280-cell.png),
-      url(../img/footer-cell/desc1280-cell@2x.png);
+    background-image: url(../img/background-cell/desc1280-cell.png),
+      url(../img/background-cell/desc1280-cell@2x.png);
   }
   .footer-wrapper {
     padding-bottom: 50px;
