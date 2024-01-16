@@ -5,68 +5,66 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-} 
+}
 
 .reviews-name {
-    margin-bottom: 50px;
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px; 
-    letter-spacing: -1.12px;
-    
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
 }
 .cards {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 .cards-box {
-    width: 100%; 
-    box-sizing: border-box; 
-    padding: 20px; 
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-    display: flex;
-    position: relative;
-    margin-right: 20px;
-    margin-top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  display: flex;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 50px;
 }
 @media screen and (max-width: 768px) {
-    .two {
-      display: none;
-    } 
+  .two {
+    display: none;
   }
+}
 @media screen and (max-width: 1280px) {
-    .cards {
-        margin-left: 32px;
-        margin-right: 32px;
-    }
+  .cards {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
 }
 @media screen and (max-width: 376px) {
-    .cards {
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .cards {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 .images {
-    height: auto;
-    border-radius: 100px;
-    margin-right: 10px;
+  height: auto;
+  border-radius: 100px;
+  margin-right: 10px;
 }
 .student {
-    display: flex;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .student-name {
-  color: #FFF;
+  color: #fff;
   font-family: DM Sans;
   font-size: 48px;
   font-style: normal;
@@ -76,14 +74,14 @@ ul {
 }
 
 .text {
-    margin-top: 10px;
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+  margin-top: 10px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
 }
 @media screen and (max-width: 376px) {
   .team {
@@ -107,30 +105,30 @@ ul {
   }
 }
 .std-name {
-  color: #FFF;
+  color: #fff;
   font-family: DM Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; 
+  line-height: 28px;
 }
 .std {
-    color: rgba(255, 255, 255, 0.50);
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px; 
-    letter-spacing: -0.28px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
 }
 @media (min-width: 377px) {
   .std {
-    color: rgba(255, 255, 255, 0.50);
+    color: rgba(255, 255, 255, 0.5);
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; 
+    line-height: 18px;
     letter-spacing: -0.28px;
   }
 }
@@ -141,12 +139,14 @@ ul {
 }
 @media (min-width: 737px) {
   .stars {
-   position: absolute; right: 20px; top: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
   }
 }
 .text-bloc {
-    width: 100%;
+  width: 100%;
 }
 .last-star {
-    opacity: 0.2;
+  opacity: 0.2;
 }
