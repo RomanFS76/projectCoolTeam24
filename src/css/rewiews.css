@@ -141,10 +141,9 @@ ul {
 }
 @media (min-width: 737px) {
   .stars {
-   position: absolute; right: 20px; top: 0px;
+   position: absolute; right: 20px; top: 20px;
   }
 }
-
 .text-bloc {
     width: 100%;
 }
