@@ -1,10 +1,6 @@
 /* Header*/
 .header {
-  background-image: url(../img/footer-cell/mob_cell.png),
-    url(../img/footer-cell/mob_cell@2x.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .menu-wrapper {
@@ -43,8 +39,10 @@
   position: center;
 }
 
-.icon-mobile-camera:hover,
-.icon-mobile-camera:focus {
+.icon-camera-link:hover .icon-camera,
+.icon-camera-link:focus .icon-camera,
+.icon-camera-link:hover .icon-mobile-camera,
+.icon-camera-link:focus .icon-mobile-camera {
   fill: rgba(190, 166, 158, 1);
 }
 
