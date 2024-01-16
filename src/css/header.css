@@ -36,13 +36,12 @@
   margin-left: auto;
 }
 .icon-camera {
+  fill: rgba(190, 166, 158, 0.4);
   position: center;
 }
 
-.icon-camera-link:hover .icon-camera,
-.icon-camera-link:focus .icon-camera,
-.icon-camera-link:hover .icon-mobile-camera,
-.icon-camera-link:focus .icon-mobile-camera {
+.icon-camera:hover,
+.icon-camera:focus {
   fill: rgba(190, 166, 158, 1);
 }
 
