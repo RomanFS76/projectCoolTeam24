@@ -1,41 +1,54 @@
+/* Mobile */
 .hero {
   background-color: #1d1d1d;
   border-radius: 30px;
-  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  /* Tablet */
+  .hero {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  /* Desktop */
+  .hero {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 
 /* Mobile */
 .hero-container {
-  padding: 40px 20px 350px;
   background-image: url(../img/hero/mob.png);
   background-repeat: no-repeat;
   background-position: bottom center;
+  padding-bottom: 350px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
   .hero-container {
-    padding: 64px 155px 640px 32px;
     background-image: url(../img/hero/tab.png);
+    padding-bottom: 640px;
   }
 }
 @media screen and (min-width: 1280px) {
   /* Desktop */
   .hero-container {
-    padding: 80px 50px 50px 50px;
     background-image: url(../img/hero/desc.png);
-
-    background-position: bottom right;
+    background-position: bottom right 50px;
+    padding: 0 50px;
   }
 }
 
 /* Mobile */
 .hero-title,
 .hero-accent {
-  font-family: DM Sans;
   font-size: 40px;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
@@ -56,19 +69,25 @@
 }
 /* Mobile */
 .hero-title {
-  color: #fff;
-  font-weight: 500;
+  color: currentColor;
   width: 295px;
-  height: 196px;
+
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
-  /* Desktop */
   .hero-title {
+    padding-top: 64px;
     width: 500px;
   }
 }
-
+@media screen and (min-width: 1280px) {
+  /* Desktop */
+  .hero-title {
+    padding-top: 80px;
+  }
+}
 .hero-accent {
   color: #bea69e;
   font-style: italic;
@@ -76,14 +95,12 @@
 }
 
 .hero-info {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: left;
-  width: 295px;
-  margin-bottom: 40px;
+  width: 100%;
+  padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
@@ -95,7 +112,7 @@
 @media screen and (min-width: 1280px) {
   /* Desktop */
   .hero-info {
-    margin-bottom: 136px;
+    padding-bottom: 136px;
   }
 }
 
@@ -105,7 +122,7 @@
   width: 253px;
   column-gap: 40px;
   margin-bottom: 30px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
@@ -228,7 +245,7 @@
   height: 44px;
   border-radius: 100px;
   background-color: #bea69e;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   /* Tablet */
@@ -249,7 +266,6 @@
 }
 .hero-reviews-accent {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
@@ -263,13 +279,11 @@
   }
 }
 .hero-reviews-info-wrapper > .hero-info {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.12;
   letter-spacing: -0.04em;
 
-  margin-bottom: 0;
+  padding-bottom: 50px;
 }
 /* Hero Reviews end */
