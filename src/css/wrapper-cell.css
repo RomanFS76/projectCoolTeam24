@@ -1,7 +1,7 @@
 .wrapper-cell {
     padding: 20px 0 40px;
     background-image: 
-    url(../img/background-cell/mob_cell.png);
+    url(../img/background-cell/Graphicmob_header-hero.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -11,7 +11,7 @@
 .wrapper-cell {
     padding-bottom: 50px;
     background-image: 
-    url(../img/background-cell/tablet-cell.png);
+    url(../img/background-cell/Graphictab_header-hero.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -21,7 +21,7 @@
 .wrapper-cell {
     padding-bottom: 75px;
     background-image: 
-    url(../img/background-cell/desc1280-cell.png);
+    url(../img/background-cell/Graphic1280_header-hero.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -30,7 +30,7 @@
 @media screen and (min-width: 1440px) {
 .wrapper-cell {
     background-image: 
-    url(../img/background-cell/desc1440-cell.png);
+    url(../img/background-cell/Graphic1440_header-hero.png);
     background-repeat: no-repeat;
     background-size: contain;
     }
