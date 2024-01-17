@@ -148,13 +148,18 @@ display: flex;
 list-style: none;
 padding: 0;
 }
+
 @media (min-width: 768px) {
-.stars {
- position: absolute; right: 20px; top: 20px;
-}
+  .stars {
+  position: absolute; right: 20px; top: 20px;
+  }
 }
 
-
+@media (max-width: 1279px) {
+  .stars {
+    position: static;
+}
+}
 .last-star {
   opacity: 0.2;
 }
