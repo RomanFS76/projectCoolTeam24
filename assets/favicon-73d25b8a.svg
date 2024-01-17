@@ -11,12 +11,12 @@
             <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.909"
                 d="M8.538 5.333h36.553M8.538 24.727h36.553M19.668 15.03h25.423" style="stroke:var(--color2, #fff)" />
         </symbol>
-<symbol id="icon-close"
-xmlns="http://www.w3.org/2000/svg"  fill="none">
-  <path d="M24 8L8 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M8 8L24 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-</symbol>
-    
+        <symbol id="icon-close"
+            xmlns="http://www.w3.org/2000/svg"  fill="none">
+            <path d="M24 8L8 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8 8L24 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>   
+
         <symbol id="icon-logo" viewBox="0 0 203 32">
             <path fill="#fff" style="fill: var(--color1, #fff)"
                 d="M16.534 17.72h-11.202v10.588h-5.332v-25.108h18.146v4.386h-12.813v5.71h11.202v4.424z"></path>
