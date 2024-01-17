@@ -1,6 +1,6 @@
 /* Header*/
 .header {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .menu-nav {
@@ -49,8 +49,7 @@
 
 @media only screen and (min-width: 768px) {
   .header {
-    background-image: url(../img/footer-cell/tablet-cell.png),
-      url(../img/footer-cell/tablet_cell@2x.png);
+    padding-bottom: 40px;
   }
   .menu-nav {
     width: 504px;
@@ -98,8 +97,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .header {
-    background-image: url(../img/footer-cell/desc1280-cell.png),
-      url(../img/footer-cell/desc1280_cell@2x.png);
+    padding-bottom: 80px;
   }
 
   .menu-nav {
