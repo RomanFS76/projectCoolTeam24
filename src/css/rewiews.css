@@ -48,6 +48,9 @@ ul {
       
     
   }
+  .two {
+    display: block;
+  }
   @media screen and (max-width: 1279px) {
       .two {
         display: none;
