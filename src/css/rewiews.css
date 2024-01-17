@@ -1,0 +1,161 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    } 
+    
+    .reviews.section {
+      padding-bottom: 80px;
+    }
+    
+    @media screen and (min-width: 768px) {
+      .reviews.section {
+        padding-bottom: 100px;
+      } 
+    }
+    
+    @media screen and (min-width: 1280px) {
+      .reviews.section {
+       padding-bottom: 150px;
+      }
+    }
+    
+    
+    .box-name {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:  1.12;
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+    }
+    @media screen and (max-width: 376px) {
+    .box-name {
+      font-size: 28px;
+    }
+    }
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    
+    }
+    @media screen and (min-width: 1280px) {
+    .cards {
+      width: 1240px;
+      height: 196px;
+    }
+    }
+    .cards-box {
+      width: 100%; 
+      box-sizing: border-box; 
+      padding: 20px; 
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.20);
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4px;
+      display: flex;
+      position: relative;
+      
+    
+    }
+    @media screen and (max-width: 1279px) {
+        .two {
+          display: none;
+        } 
+      }
+    
+    
+    .images {
+      height: auto;
+      border-radius: 100px;
+      margin-right: 10px;
+    }
+    .student {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    @media screen and (max-width: 376px) {
+    .student {
+      margin-bottom: 0;
+    }
+    }
+    .text-bloc {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  1.25;
+    letter-spacing: -0.32px;
+    }
+    @media screen and (max-width: 376px) {
+    .team {
+      flex-direction: column;
+    }
+    }
+    @media screen and (min-width: 768px) {
+    .team {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    }
+    @media screen and (max-width: 376px) {
+    .text {
+      font-size: 14px;
+    }
+    }
+    
+    .std-name {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4; 
+    }
+    @media (min-width: 377px) {
+    .std-name{
+      line-height: 1.2; 
+    }
+    }
+    .std {
+      color: rgba(255, 255, 255, 0.50);
+      font-family: DM Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; 
+      letter-spacing: -0.28px;
+    }
+    @media (min-width: 377px) {
+    .std {
+      color: rgba(255, 255, 255, 0.50);
+      font-family: DM Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.28; 
+      letter-spacing: -0.28px;
+    }
+    }
+    .std-stars {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    }
+    @media (min-width: 768px) {
+    .stars {
+     position: absolute; right: 20px; top: 20px;
+    }
+    }
+    
+    
+    .last-star {
+      opacity: 0.2;
+    }
