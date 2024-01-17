@@ -1,5 +1,5 @@
 .wrapper-cell {
-    padding: 20px 0 40px;
+    padding: 20px 0 80px;
     background-image: 
     url(../img/background-cell/Graphicmob_header-hero.png);
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 768px) {
 .wrapper-cell {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     background-image: 
     url(../img/background-cell/Graphictab_header-hero.png);
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1280px) {
 .wrapper-cell {
-    padding-bottom: 75px;
+    padding-bottom: 150px;
     background-image: 
     url(../img/background-cell/Graphic1280_header-hero.png);
     background-repeat: no-repeat;
