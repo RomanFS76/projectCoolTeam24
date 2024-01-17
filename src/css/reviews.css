@@ -1,11 +1,12 @@
-ul {
-list-style: none;
-}
 .reviews {
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 } 
+
+.reviews.section {
+
+}
 
 .box-name {
 color: #FFF;
