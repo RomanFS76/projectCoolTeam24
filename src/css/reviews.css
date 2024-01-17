@@ -5,8 +5,21 @@ align-items: flex-start;
 } 
 
 .reviews.section {
-
+  padding-bottom: 80px;
 }
+
+@media screen and (max-width: 768px) {
+  .reviews.section {
+    padding-bottom: 100px;
+  } 
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews.section {
+   padding-bottom: 150px;
+  }
+}
+
 
 .box-name {
 color: #FFF;
