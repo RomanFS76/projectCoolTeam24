@@ -31,10 +31,23 @@
   visibility: hidden;
   transition: transform 600ms ease, visibility 600ms ease;
 }
-.backdrop.is-open .mobile-menu {
+
+.backdrop.is-open {
+  visibility: visible;
+}
+
+.backdrop.is-open > .mobile-menu {
   transform: translateX(0);
   visibility: visible;
 }
+
+
+/* .mobile-menu.is-open,
+.backdrop.is-open {
+  transform: translateX(0);
+  visibility: visible;
+} */
+
 .close-button {
   display: flex;
   background-color: transparent;
@@ -111,6 +124,5 @@
 @media only screen and (min-width: 1280px) {
   .mobile-menu {
     display: none;
-    justify-content: ;
   }
 }

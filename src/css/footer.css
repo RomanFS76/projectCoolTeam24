@@ -8,9 +8,6 @@
 }
 
 /*Footer Top*/
-.footer {
-  padding: 40px 0 20px;
-}
 
 .footer-top {
   margin-bottom: 40px;
@@ -139,7 +136,7 @@
   .footer-wrapper {
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 74px;
+    margin-bottom: 74px;
   }
   .footer-top {
     margin-top: 0;
@@ -172,7 +169,7 @@
     background-image: url(../img/background-cell/desc1280-cell.png);
   }
   .footer-wrapper {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
   .form-footer-input {
     width: 216px;
