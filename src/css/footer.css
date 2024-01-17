@@ -49,14 +49,16 @@
   flex-direction: column;
   gap: 14px;
 }
+.socials {
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+}
 
 .socials-item {
   font-size: 14px;
   line-height: normal;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
 }
 .menu-item {
   font-size: 14px;
