@@ -1,9 +1,6 @@
 .advertisement.section {
   padding-top: 0;
 }
-
-
-
 .advertisement-marquee {
   overflow: hidden;
   font-size: 28px;
@@ -14,6 +11,8 @@
   text-transform: uppercase;
   background-color: transparent;
   color: #bea69e;
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 @media screen and (min-width: 768px) {
