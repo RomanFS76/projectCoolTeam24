@@ -134,7 +134,7 @@ display: flex;
 list-style: none;
 padding: 0;
 }
-@media (min-width: 737px) {
+@media (min-width: 768px) {
 .stars {
  position: absolute; right: 20px; top: 20px;
 }
