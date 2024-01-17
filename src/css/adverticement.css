@@ -1,3 +1,9 @@
+.advertisement.section {
+  padding-top: 0;
+}
+
+
+
 .advertisement-marquee {
   overflow: hidden;
   font-size: 28px;

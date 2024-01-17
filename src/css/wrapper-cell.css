@@ -3,7 +3,7 @@
     background-image: 
     url(../img/background-cell/Graphicmob_header-hero.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
@@ -13,7 +13,7 @@
     background-image: 
     url(../img/background-cell/Graphictab_header-hero.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
@@ -23,7 +23,7 @@
     background-image: 
     url(../img/background-cell/Graphic1280_header-hero.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
@@ -32,6 +32,6 @@
     background-image: 
     url(../img/background-cell/Graphic1440_header-hero.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     }
 }
