@@ -70,16 +70,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
   margin-bottom: 40px;
 }
 .form-footer-input {
   height: 60px;
-  max-width: 267px;
+  width: 267px;
   flex-shrink: 0;
   border-radius: 12px;
   background: #fff;
   padding: 20px 18px;
-  margin-right: 8px;
   border: none;
 }
 .form-footer-input::placeholder {
@@ -96,10 +96,17 @@
   background: #1d1d1d;
   color: #fff;
   text-align: center;
-
   font-size: 20px;
   line-height: 2.4;
   border: none;
+}
+@media only screen and (max-width: 320px) {
+  .form-footer-input {
+    width: 100%;
+  }
+  .form-footer {
+    margin: 0 auto 40px;
+  }
 }
 
 /*Footer Bottom*/
@@ -132,7 +139,6 @@
 @media only screen and (min-width: 768px) {
   .footer {
     padding-top: 50px;
-
     background-image: url(../img/background-cell/tablet-cell.png);
   }
   .footer-wrapper {
