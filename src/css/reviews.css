@@ -42,12 +42,12 @@ margin-bottom: 50px;
   gap: 20px;
 
 }
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
 .cards {
   width: 1240px;
   height: 196px;
 }
-}
+} */
 .cards-box {
   width: 100%; 
   box-sizing: border-box; 
@@ -62,7 +62,7 @@ margin-bottom: 50px;
   
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279.98px) {
   .two {
     display: none;
   } 
