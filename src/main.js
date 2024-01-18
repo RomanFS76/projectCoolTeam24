@@ -11,6 +11,6 @@ function openMobMenu () {
 closeButton.addEventListener('click', closeMobMenu);
 
 function closeMobMenu () {
-    backdrop.classList.toggle('is-open');
+    backdrop.classList.remove('is-open');
 }
 
